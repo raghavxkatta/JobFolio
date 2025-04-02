@@ -17,21 +17,27 @@ function Header() {
                         {/* Logo/Brand */}
                         <div className="flex items-center">
                             <h1 className="text-3xl text-yellow-500 font-medium hover:scale-105 transition-all duration-300">
-                                Resume Analyzer
+                                JobFolio
                             </h1>
                         </div>
 
-                        {/* Hamburger Menu Button */}
+                        {/* Auth Buttons and Hamburger Menu */}
                         <div className="flex items-center space-x-4">
-                            {/* Login Button - Always visible */}
-                            <div className="bg-white text-black rounded-md">
-                                <Link 
-                                    to="/login" 
-                                    className="px-3 py-2 rounded-md text-md bg-yellow-500 font-semibold  hover:bg-gray-200 transition-colors duration-200 inline-block"
-                                >
-                                    Login/Sign Up
-                                </Link>
-                            </div>
+                            {/* Sign In Button */}
+                            <Link 
+                                to="/signin" 
+                                className="px-3 py-2 rounded-md text-md font-semibold text-black bg-white hover:bg-gray-200 transition-colors duration-200"
+                            >
+                                Sign In
+                            </Link>
+                            
+                            {/* Sign Up Button */}
+                            <Link 
+                                to="/signup" 
+                                className="px-3 py-2 rounded-md text-md font-semibold text-black bg-yellow-500 hover:bg-yellow-400 transition-colors duration-200"
+                            >
+                                Sign Up
+                            </Link>
                             
                             {/* Menu Toggle Button */}
                             <button
