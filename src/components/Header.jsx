@@ -16,7 +16,7 @@ function Header() {
                     <div className="flex justify-between items-center">
                         {/* Logo/Brand */}
                         <div className="flex items-center">
-                            <h1 className="text-3xl font-medium hover:scale-105 transition-all duration-300">
+                            <h1 className="text-3xl text-yellow-500 font-medium hover:scale-105 transition-all duration-300">
                                 Resume Analyzer
                             </h1>
                         </div>
@@ -27,7 +27,7 @@ function Header() {
                             <div className="bg-white text-black rounded-md">
                                 <Link 
                                     to="/login" 
-                                    className="px-4 py-2 rounded-md text-lg font-medium hover:bg-gray-200 transition-colors duration-200 inline-block"
+                                    className="px-3 py-2 rounded-md text-md bg-yellow-500 font-semibold  hover:bg-gray-200 transition-colors duration-200 inline-block"
                                 >
                                     Login/Sign Up
                                 </Link>
